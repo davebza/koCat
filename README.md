@@ -7,7 +7,7 @@
 
 One to two paragraph statement about your product and what it does.
 
-![](/readme/images/readmePreview.png)
+![](/readmeAssets/readmePreview.png)
 
 ## Installation
 
