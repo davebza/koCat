@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>Title here!</title><!-- Load the page styles. -->
-	<link href="css/style.css" rel="stylesheet">
-	<link href="images/favicon.ico" rel="icon">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js">
-	</script>
+    <meta charset="UTF-8">
+    <title>Cat Clicker</title>
 </head>
 <body>
-	
-	<footer></footer><!-- JavaScript includes: -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-	</script>
-	<script src="js/scripts.js">
-	</script>
+    <ul id="cat-list"></ul>
+    <div id="cat">
+
+        <h2 id="cat-name"></h2>
+        <div id="cat-count"></div>
+        <img id="cat-img" src="" alt="cute cat">
+
+    </div>
+    <script src="js/lib/knockout-3.2.0.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
