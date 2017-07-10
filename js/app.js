@@ -8,6 +8,14 @@ var ViewModel = function() {
 
     };
 
+    this.level = ko.computed(function(){
+        if(this.clickCount() < 10){
+            return("Noob");
+        }else if (this.clickCount() < 20) {
+            return("IttyBittyKitty");
+        };
+    }, this);
+
 }
 
 ko.applyBindings(new ViewModel());
